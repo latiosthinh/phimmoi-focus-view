@@ -1,0 +1,23 @@
+{
+  "name": "Phimmoi Focus View",
+  "description": "Popup phimmoi video iframe by latiosthinh",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "/images/focus16.png",
+      "32": "/images/focus32.png",
+      "128": "/images/focus128.png"
+    },
+    "default_title": "Phimmoi Focus View"
+  },
+  "icons": {
+    "16": "/images/focus16.png",
+    "32": "/images/focus32.png",
+    "128": "/images/focus128.png"
+  }
+}
